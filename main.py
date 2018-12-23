@@ -20,7 +20,6 @@ def result():
     pp(resp)
     if resp:
        data.append(resp)
-       print(data)
     if len(data) != 2:
         error = 'Bad Response from Weather API'
     return render_template(
