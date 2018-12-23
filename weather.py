@@ -5,6 +5,7 @@ import requests
 import math
 API_KEY = '################################'
 API_URL = ('http://api.openweathermap.org/data/2.5/weather?q={}&mode=json&units=metric&appid={}')
+
 def query_api(city):
     try:
         print(API_URL.format(city, API_KEY))
