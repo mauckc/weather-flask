@@ -58,3 +58,16 @@ http://api.openweathermap.org/data/2.5/weather?q=Winnipeg&mode=json&units=metric
  ```shell
  python main.app
  ```
+
+
+ ## For Google App Engine Deployment
+Replicate the library’s dependencies in lib folder
+```shell
+pip install -t lib -r requirements.txt
+```
+
+# Deploy on Google Cloud using your save project ID (it can take 10 minutes). Use the following steps:
+gcloud auth application-default login
+gcloud config set project <PROJECT_ID>
+gcloud init
+gcloud app deploy app.yaml
