@@ -1,4 +1,7 @@
 # Weather-Flask
+
+* [My sample deployment](https://weather-226421.appspot.com/)
+
 ## Flask Topic Overview
 * basic CSS design
 * basic HTML with Jinja
